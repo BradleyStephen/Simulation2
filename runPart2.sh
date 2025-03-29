@@ -1,0 +1,7 @@
+#!/bin/bash
+./sim-outorder.exe -config config/myconfig_inorder_1.cfg -max:inst 1000000000 -redir:sim baseline_inorder.log /cygdrive/c/cygwin/Benchmark-SPEC2006-ALPHA/bin/bzip2.base.alpha /cygdrive/c/cygwin/Benchmark-SPEC2006-ALPHA/input/bzip2/chicken.jpg
+./sim-outorder.exe -config config/myconfig_resources4.cfg -max:inst 1000000000 -redir:sim resources4.log /cygdrive/c/cygwin/Benchmark-SPEC2006-ALPHA/bin/bzip2.base.alpha /cygdrive/c/cygwin/Benchmark-SPEC2006-ALPHA/input/bzip2/chicken.jpg
+./sim-outorder.exe -config config/myconfig_pipeline4.cfg -max:inst 1000000000 -redir:sim pipeline4.log /cygdrive/c/cygwin/Benchmark-SPEC2006-ALPHA/bin/bzip2.base.alpha /cygdrive/c/cygwin/Benchmark-SPEC2006-ALPHA/input/bzip2/chicken.jpg
+./sim-outorder.exe -config config/myconfig_mem2.cfg -max:inst 1000000000 -redir:sim mem2.log /cygdrive/c/cygwin/Benchmark-SPEC2006-ALPHA/bin/bzip2.base.alpha /cygdrive/c/cygwin/Benchmark-SPEC2006-ALPHA/input/bzip2/chicken.jpg
+./sim-outorder.exe -config config/myconfig_mem4.cfg -max:inst 1000000000 -redir:sim mem4.log /cygdrive/c/cygwin/Benchmark-SPEC2006-ALPHA/bin/bzip2.base.alpha /cygdrive/c/cygwin/Benchmark-SPEC2006-ALPHA/input/bzip2/chicken.jpg
+./sim-outorder.exe -config config/myconfig_ruu16.cfg -max:inst 1000000000 -redir:sim ruu16.log /cygdrive/c/cygwin/Benchmark-SPEC2006-ALPHA/bin/bzip2.base.alpha /cygdrive/c/cygwin/Benchmark-SPEC2006-ALPHA/input/bzip2/chicken.jpg
